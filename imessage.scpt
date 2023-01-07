@@ -1,6 +1,6 @@
 on run argv
     tell application "Messages"
-        set phoneNumber to "(646) 853-0832"
+        set phoneNumber to "PHONE_NUMBER"
         set message to "nice"
         send message to buddy phoneNumber --of service "SMS"
     end tell
