@@ -4,5 +4,5 @@ on run argv
         set message to "MESSAGE"
         send message to buddy phoneNumber --of service "SMS"
     end tell
-    log "Message sent to (646) 853-0832"
+    log "Message sent to PHONE_NUMBER"
 end run
